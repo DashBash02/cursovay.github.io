@@ -1,0 +1,55 @@
+.mainBlock{
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 570px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.leftMainB{
+    min-width: 300px;
+    max-width: 412px;
+    height: 500px;
+    display: flex;
+}
+.title{
+    margin: 80px 0 0 10px;
+}
+
+.title p{
+    font-family: "mainFont";
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.subtitle{
+    margin: 30px 0 0;
+    width: 300px;
+}
+
+.subtitle p{
+    font-weight: 350;
+    font-size: 20px;
+}
+.subtitle ul{
+    margin-left: 15px;
+    font-family: "mainFont";
+    font-weight: 350;
+    font-size: 20px;
+}
+
+.rightMainB{
+    min-width: 700px;
+    max-width: 868px;
+    height: 500px;
+    display: flex;
+    padding-top: 25px;
+}
+
+.borderImg2{
+    border-radius: 25px;
+    border:10px solid #fce8dd;
+}
+

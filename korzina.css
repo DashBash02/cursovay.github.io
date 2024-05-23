@@ -1,0 +1,105 @@
+
+.title{
+    min-width: 1000px;
+    max-width: 1280px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+.title p{
+    font-family: "mainFont";
+    font-weight: 1000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.back{
+    min-width: 1000px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.cart{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 50px 10px 50px;
+    flex-direction: column;
+    font-family: "mainFont";
+    font-weight: 500;
+    font-size: 17px;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: #fec1c6;
+
+}
+.cart div{
+    display: flex;
+    background-color: #fec1c6;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+}
+.cart p{ 
+    background-color: #fec1c6;
+    margin-top: 10px;
+    
+}
+   
+.price p{
+    display: flex;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0px;
+}
+.btnDell{
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    width: 10px;
+    height: 10px;
+    background-color: hwb(346 37% 27%);
+}
+.infoPerson{
+    min-width: 500px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "mainFont";
+    font-weight: 500;
+    font-size: 17px;
+}
+.infoPerson input{
+    width: 300px;
+}
+.infoPerson button{
+    transition: all 1s ease 0s;
+    height: 40px;
+    width: 200px;
+    background-color: #96A856;
+    border-radius: 20px;
+    font-family: "mainFont";
+    font-weight: 350;
+    font-size: 15px;
+    border:2px solid #96A856;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.infoPerson button:hover{
+    transform: scale(1.05);
+    background-color: #bcd172;
+    border:2px solid #bcd172;
+}
